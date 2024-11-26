@@ -1,16 +1,27 @@
 # time-series-data-for-weather
 Dataset yang digunakan:
+
 •	Dataset yang digunakan dalam proyek ini berasal dari Open-Meteo API yang menyediakan data cuaca berbasis time-series selama 90 hari terakhir.
+
 •	Dataset ini mencakup berbagai fitur cuaca yang sangat berguna dalam prediksi suhu, antara lain:
+
 o	temperature_2m: Suhu pada ketinggian 2 meter di atas permukaan tanah.
+
 o	relative_humidity_2m: Kelembaban relatif udara pada ketinggian 2 meter.
+
 o	dew_point_2m: Titik embun udara pada ketinggian 2 meter.
+
 o	wind_speed_10m: Kecepatan angin pada ketinggian 10 meter.
+
 o	pressure_msl: Tekanan udara pada permukaan laut.
 o	cloud_cover: Persentase langit yang tertutup awan.
+
+
 Fitur tambahan yang digunakan:
+
 •	rain, snowfall, visibility, soil_temperature, dan fitur lainnya juga tersedia dan dapat digunakan, tergantung pada relevansi dengan model.
 Format Dataset:
+
 •	Data disediakan dalam bentuk time-series yang mencakup informasi setiap jam atau harian selama periode yang telah ditentukan (90 hari pada contoh ini). Setiap baris dalam dataset berisi nilai untuk beberapa fitur cuaca pada waktu tertentu.
 
 Alasan Pemilihan Dataset
